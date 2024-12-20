@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Congratulations To Thitima!</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fce4ec;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #880e4f;
+            font-size: 50px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #333;
+            font-size: 30px;
+            margin-bottom: 30px;
+        }
+        .congratulations-message {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+            width: 70%;
+            margin: 0 auto;
+        }
+        .image-container {
+            margin: 20px 0;
+        }
+        img {
+            width: 200px;
+            height: auto;
+            border-radius: 50%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .confetti {
+            font-size: 50px;
+            color: #FF69B4;
+            margin-top: 30px;
+        }
+        .star {
+            color: gold;
+            font-size: 30px;
+        }
+        .balloon {
+            color: #FF6347;
+            font-size: 40px;
+        }
+      @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+        button {
+            background-color: #ec407a;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #d81b60;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎉 Congratulations To Thitima! 🎉</h1>
+    <div class="congratulations-message">
+        <h2>Congratulations! พี่สาวสุดที่รัก</h2>
+        <p>ยินดีด้วยนะ</p>
+        <div class="image-container">
+            <!-- Add an image for graduation -->
+            <img src="https://github.com/thidarat2203/thitima/blob/main/thitima.jpg" alt="Graduation Photo">
+        </div>
+      <button onclick="showSurprise()">คลิกเพื่อรับคำอวยพร</button>
+    <p id="message" style="margin-top: 20px; font-size: 1.2em; display: none;"></p>
+
+    <script>
+        function showSurprise() {
+            const message = "น้องสาวคนนี้ยินดีด้วยมากๆเลยนะภูมิใจในตัวพี่ตาลสุดๆเก่งมากๆพี่ตาลคือต้นแบบที่ดีที่สุดเสมอมาโอ้ยยไม่รู้จะพิมพ์อวยพรอะไรเพราะพี่ตาลรู้ทุกอย่างอยู่แล้วอ่ะ เอาเป็นว่าภูมิใจสุดๆ ปล.ใช้อันนี้บอกความในใจเลยละกันรักพี่ตาลมากๆนะพี่ตาลคือเพื่อคนแรกและเพื่อนที่สนิทที่สุดของหนูเหมือนกันนะใช้ชีวิตให้มีความสุขนะอนาคตไม่รู้จะเป็นยังไงแต่อยากให้พี่ตาลมีความสุขในทุกๆวันกินให้อิ่มนอนให้หลับพักผ่อนเยอะๆทำเพื่อตัวเองเยอะๆทำเพื่อคนอื่นมาเยอะแล้วนะยังไงน้องคนนี้ก็อยู่ข่างๆเสมอตลอดไปหันมาเมื่อไหร่ก็เจอเปรี้ยวซ่าเสมอนะรักมากๆนะจุ๊บๆๆๆๆ ในขณะที่พิมพ์น้ำตาไหลตั้งแต่ตัวแรกยันตัวสุดท้ายเอาไปแอบอ่านเด้ออ 🎁🎉";
+            const messageElement = document.getElementById("message");
+            messageElement.textContent = message;
+            messageElement.style.display = "block";
+        }
+    </script>
+        <div class="confetti">
+            🎉🎉🎉
+        </div>
+        <div class="star">
+            ⭐️ ⭐️ ⭐️
+        </div>
+        <div class="balloon">
+            🎈🎈🎈
+        </div>
+    </div>
+</body>
+</html>
